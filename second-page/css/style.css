@@ -1,0 +1,61 @@
+body {
+    background-image: url(materials/background.jpg);
+    background-size: cover;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.text {
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff;
+}
+.run-away {
+    transition: 0.5s linear;
+    text-align: center;
+    line-height: 17em;
+}
+#image {
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 35%; left: 0; bottom: 0; right: 0;
+    transition: 0.5s;
+}
+#image:hover {
+    transition: 0.5s;
+    width: 20%;
+}
+#copyright {
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+    left: 0;
+    bottom: 5px;
+    position: fixed;
+    width: 100%;
+    text-align: right;
+}
+#return-back {
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+    left: 0;
+    bottom: 5px;
+    position: fixed;
+    width: 100%;
+    text-align: left;
+}
+#href {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+#href:hover {
+    transition: 0.5s;
+    font-size: 20px;
+}
